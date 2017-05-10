@@ -1,0 +1,40 @@
+#MainWindowContainer {
+    margin-top: 200px;
+}
+
+
+#MainWindow {
+    padding: 30px;
+    border: 10px solid #A9A9A9;
+}
+
+
+#OuterTabContainer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+
+}
+
+#InnerTabContainer {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#TabContainer {
+
+}
+
+.tab {
+    font-size: 1.5em;
+    background-color: #CAEBF2;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+}
+
+.tab:hover {
+    opacity: .8
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: #EFEFEF;
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+body a:active {
+    color: black;
+    text-decoration: none;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
+require('../../../style/main-window.css');
 
 export default (props) => {
     return (
-        <a 
-            href={`#${props.name}`}
-            onClick={props.showTab}>{props.name}</a>
+            <button className="tab"
+                    onClick={props.showTab}>{props.name}</button>
     )
 } 
