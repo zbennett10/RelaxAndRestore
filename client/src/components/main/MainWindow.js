@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Tab from './Tab';
-require('../../../style/main-window.css');
+import ServicesTab from '../services/ServicesTab';
+require('../../style/main-window.css');
 
 export default class MainWindow extends Component {
     constructor(props) {
@@ -11,8 +12,8 @@ export default class MainWindow extends Component {
     render() {
         return (
             <div id="MainWindowContainer" className="container">
-                <div id="OuterTabContainer">
-                    <nav id="InnerTabContainer">
+                <div id="TabContainer">
+                    <nav>
                         <Tab 
                             name="About"/>
                         <Tab
@@ -25,7 +26,7 @@ export default class MainWindow extends Component {
                 </div>
                 
                 <div id="MainWindow" className="text-center">
-                    
+                    <ServicesTab/>
                 </div>
 
                 

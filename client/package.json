@@ -10,8 +10,11 @@
     "react-dom": "^15.5.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start-react": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-react",
+    "build": "npm run build-css && react-scripts build",
+    "build-css": "node-sass src/style/ -o src/style/",
+    "watch-css": "npm run build-css && node-sass src/style/ -o src/style/ --watch --recursive",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

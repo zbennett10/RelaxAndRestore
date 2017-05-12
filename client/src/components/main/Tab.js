@@ -1,5 +1,5 @@
 import React from 'react';
-require('../../../style/main-window.css');
+require('../../style/main-window.css');
 
 export default (props) => {
     return (
