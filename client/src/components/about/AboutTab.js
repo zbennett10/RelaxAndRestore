@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class ContactTab extends Component {
+export default class AboutTab extends Component {
     constructor(props) {
         super();
     }
@@ -8,7 +8,7 @@ export default class ContactTab extends Component {
     render() {
         return (
             <div>
-                ContactTab
+                AboutTab
             </div>
         )
     }
